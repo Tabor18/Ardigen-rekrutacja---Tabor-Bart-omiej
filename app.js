@@ -32,8 +32,6 @@ $(document).ready(function () {
       repoList.appendChild(repoElement);
     } else {
       repos.forEach((repo) => {
-        console.log(repo);
-        console.log(repo.comments_url);
         const repoElement = document.createElement("a");
         repoElement.className = "repo-element";
         repoElement.setAttribute("href", `${repo.html_url}`);
