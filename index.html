@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repository Viewer</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-search search-js">
+            <h1 class="container-search_titleWeb">GitHub Repository Viewer</h1>
+            <input type="text" id="username" class="container-search_userName" placeholder="Enter GitHub username">
+            <button id="search-btn" class="container-search_searchBtn">Search</button>
+        </div>
+        <div class="container-result result-js">
+            <div id="repo-list" class="container-result_list">
+
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
