@@ -1,1 +1,1 @@
-Otwórz `index.html` w przeglądarce.
+Open index.html in the browser.
